@@ -10,6 +10,11 @@ module.exports = {
       fontFamily: {
         sans: ["Lato", "sans-serif"],
       },
+      colors: {
+        "shoonya-green": "#05AC8D",
+        "shoonya-purple": "#7F3F97",
+        "shoonya-black": "#141414",
+      },
     },
   },
   plugins: [],
