@@ -1,26 +1,26 @@
 export const whoCanJoinUsData = [
   {
-    iconUrl: "/whoCanJoinUs/icon01.svg",
+    iconUrl: "/whoCanJoinUs/icon01.png",
     title: "Government agencies",
     desc: "joining forces to turn vision into reality.",
   },
   {
-    iconUrl: "/whoCanJoinUs/icon02.svg",
+    iconUrl: "/whoCanJoinUs/icon02.png",
     title: "Civil society organisations",
     desc: "reaching out to communities, igniting the spark of environmental stewardship.",
   },
   {
-    iconUrl: "/whoCanJoinUs/icon03.svg",
+    iconUrl: "/whoCanJoinUs/icon03.png",
     title: "Faith-based institutions",
     desc: "inspiring congregations to become protectors of our shared biosphere.",
   },
   {
-    iconUrl: "/whoCanJoinUs/icon04.svg",
+    iconUrl: "/whoCanJoinUs/icon04.png",
     title: "The private sector",
     desc: "channelling responsible investments towards a flourishing future.",
   },
   {
-    iconUrl: "/whoCanJoinUs/icon05.svg",
+    iconUrl: "/whoCanJoinUs/icon05.png",
     title: "Educational institutions",
     desc: ", fostering a generation of environmental champions.",
   },

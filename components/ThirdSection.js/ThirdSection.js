@@ -60,9 +60,9 @@ const ThirdSection = () => {
                   <div className="flex flex-col items-center justify-start gap-4 bg-[url('/whoCanJoinUs/circle.png')] bg-cover bg-center w-[400px] h-[400px] p-5">
                     {/* Image with fixed height to align */}
                     <div className="flex justify-center items-center h-[50px] mt-20">
-                      <img
+                      <Image
                         src={item.iconUrl}
-                        width={45}
+                        width={35}
                         height={35}
                         alt="icon"
                         className="w-10 h-10"
