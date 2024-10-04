@@ -8,9 +8,9 @@ const ForthSection = () => {
       <div className="flex flex-col items-center justify-between gap-10 md:gap-16 max-w-screen-lg mx-auto">
         <div className="gap-3 md:gap-5 flex items-center italic flex-wrap justify-center">
           <span className="text-xl md:text-3xl text-[#486601]">Grow</span>
-          <div className="border-b-2 border-[#FF9A50] w-16 md:w-24" />
+          <div className="border-b-2 border-[#FF9A50] w-10 md:w-24" />
           <span className="text-xl md:text-3xl text-[#FF6450]">Engage</span>
-          <div className="border-b-2 border-[#626262] w-16 md:w-24" />
+          <div className="border-b-2 border-[#626262] w-10 md:w-24" />
           <span className="text-xl md:text-3xl text-[#020202]">Facilitate</span>
         </div>
 
