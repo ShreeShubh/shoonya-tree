@@ -61,7 +61,7 @@ const ThirdSection = () => {
                     {/* Image with fixed height to align */}
                     <div className="flex justify-center items-center h-[50px] mt-20">
                       <Image
-                        src={item.iconUrl}
+                        src="/whoCanJoinUs/icon02.png"
                         width={35}
                         height={35}
                         alt="icon"
