@@ -57,7 +57,7 @@ const ThirdSection = () => {
               return (
                 <div key={index} className="flex justify-center">
                   {/* Circle container with dynamic width and height */}
-                  <div className="flex flex-col items-center justify-start gap-4 w-[400px] h-[400px] p-5">
+                  <div className="flex flex-col items-center justify-start gap-4 bg-[url('/circle.png')] bg-cover bg-center w-[400px] h-[400px] p-5">
                     {/* Image with fixed height to align */}
                     <div className="flex justify-center items-center h-[50px] mt-20">
                       <Image
