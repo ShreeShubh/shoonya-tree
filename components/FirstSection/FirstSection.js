@@ -36,7 +36,7 @@ const FirstSection = () => {
             src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/5382493-hd_1280_720_24fps.mp4"
             className="w-full h-full rounded-2xl"
             controls
-            //poster="/videoPlaceholder.png"
+            poster="/videoPlaceholder.png"
           ></video>
         </div>
 
