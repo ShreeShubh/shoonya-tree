@@ -56,9 +56,7 @@ const ThirdSection = () => {
             {whoCanJoinUsData.map((item, index) => {
               return (
                 <div key={index} className="flex justify-center">
-                  {/* Circle container with dynamic width and height */}
                   <div className="flex flex-col items-center justify-start gap-4 bg-[url('/circle.png')] bg-cover bg-center w-[400px] h-[400px] p-5">
-                    {/* Image with fixed height to align */}
                     <div className="flex justify-center items-center h-[50px] mt-20">
                       <Image
                         src={item.iconUrl}
@@ -69,7 +67,6 @@ const ThirdSection = () => {
                       />
                     </div>
 
-                    {/* Description */}
                     <p className="text-sm text-[#333536] text-center w-3/5">
                       <span className="text-shoonya-purple">{item.title}</span>{" "}
                       {item.desc}
