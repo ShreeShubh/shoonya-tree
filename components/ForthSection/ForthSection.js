@@ -4,14 +4,14 @@ import React from "react"
 
 const ForthSection = () => {
   return (
-    <div className="h-auto px-5 py-16 justify-center">
+    <div className="h-auto px-5 pb-16 pt-24 justify-center">
       <div className="flex flex-col items-center justify-between gap-10 md:gap-16 max-w-screen-lg mx-auto">
         <div className="gap-3 md:gap-5 flex items-center italic flex-wrap justify-center">
-          <span className="text-xl md:text-3xl text-[#486601]">Grow</span>
+          <span className="text-xl md:text-4xl text-[#486601]">Grow</span>
           <div className="border-b-2 border-[#FF9A50] w-10 md:w-24" />
-          <span className="text-xl md:text-3xl text-[#FF6450]">Engage</span>
+          <span className="text-xl md:text-4xl text-[#FF6450]">Engage</span>
           <div className="border-b-2 border-[#626262] w-10 md:w-24" />
-          <span className="text-xl md:text-3xl text-[#020202]">Facilitate</span>
+          <span className="text-xl md:text-4xl text-[#020202]">Facilitate</span>
         </div>
 
         <ul className="flex flex-col gap-10 md:gap-14 w-full">

@@ -2,10 +2,10 @@ import Image from "next/image"
 
 const FirstSection = () => {
   return (
-    <div className="min-h-screen pb-40 bg-[url('/banner01.png')] bg-cover bg-center flex justify-center">
+    <div className="min-h-screen pb-32 bg-[url('/banner01.png')] bg-cover bg-center flex justify-center">
       <div className="flex flex-col items-center text-white h-full gap-24 mx-auto">
-        <div className="bg-white px-7 py-5 rounded-b-2xl shadow">
-          <Image src="/logo.svg" width={168} height={53} alt="shoonya logo" />
+        <div className="bg-white px-12 py-8 rounded-b-2xl shadow">
+          <Image src="/logo.svg" width={175} height={65} alt="shoonya logo" />
         </div>
 
         <div className="flex flex-col items-center gap-3">
@@ -25,9 +25,9 @@ const FirstSection = () => {
             We are on a mission to grow 1 Million trees by 2030
           </h1>
 
-          <button className="relative bg-shoonya-green text-base md:text-lg px-4 md:px-5 py-2 rounded-3xl ring-4 ring-shoonya-green/30 shadow overflow-hidden group">
+          <button className="relative bg-shoonya-green text-base md:text-lg px-4 md:px-9 py-3 rounded-3xl ring-4 ring-shoonya-green/30 shadow overflow-hidden group">
             <span className="absolute inset-0 bg-shoonya-purple origin-left scale-x-0 transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
-            <span className="relative z-10">Join the Movement</span>
+            <span className="relative z-10 text-lg">Join the Movement</span>
           </button>
         </div>
 
@@ -43,14 +43,14 @@ const FirstSection = () => {
         <div className="flex flex-col md:flex-row gap-10 md:gap-20">
           <Image
             src="/tree.png"
-            width={310}
-            height={310}
+            width={400}
+            height={400}
             className="tree"
             alt="tree"
           />
 
           <div className="flex flex-col justify-center gap-3 md:gap-5 text-center md:text-left">
-            <p className="text-base md:text-lg text-shoonya-purple">
+            <p className="text-base md:text-xl text-shoonya-purple">
               One Tree can absorb <br /> up to 22 kg of CO2 per year
             </p>
             <h2 className="text-2xl md:text-3xl font-semibold text-shoonya-black">

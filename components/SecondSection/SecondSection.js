@@ -51,7 +51,7 @@ const SecondSection = () => {
         </div>
 
         {/* Final Paragraph */}
-        <p className="text-base md:text-lg text-shoonya-black text-center mt-5 md:mt-10">
+        <p className="text-base md:text-xl text-shoonya-black text-center mt-5 md:mt-10">
           Our reforestation project directly benefits the biosphere by
           strategically growing native trees in ecologically sensitive zones.
           These trees act as natural filters, removing harmful pollutants and
