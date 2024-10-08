@@ -31,12 +31,16 @@ const FirstSection = () => {
           </button>
         </div>
 
-        <div className="bg-white p-2 md:p-3 w-full mt-10">
+        <div className="w-full mt-10">
           <video
             src="https://s3.ap-south-1.amazonaws.com/com.cg.ivista.mediafiles/shoonya/5382493-hd_1280_720_24fps.mp4"
-            className="w-full h-full rounded-2xl"
-            controls
-            poster="/videoPlaceholder.png"
+            className="w-full h-full"
+            autoPlay
+            muted
+            loop
+            playsInline
+            //poster="/videoPlaceholder.png"
+            controlsList="nodownload nofullscreen noremoteplayback"
           ></video>
         </div>
 
