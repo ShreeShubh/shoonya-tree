@@ -1,10 +1,9 @@
 import { growEngageFacilitateData } from "@/utils/data"
 import Image from "next/image"
-import React from "react"
 
-const ForthSection = () => {
+const GrowEngageFacilitate = () => {
   return (
-    <div className="h-auto px-5 pb-16 pt-24 justify-center">
+    <div className="h-auto px-5 md:pb-16 pt-24 justify-center">
       <div className="flex flex-col items-center justify-between gap-10 md:gap-16 max-w-screen-lg mx-auto">
         <div className="gap-3 md:gap-5 flex items-center italic flex-wrap justify-center">
           <span className="text-xl md:text-4xl text-[#486601]">Grow</span>
@@ -50,4 +49,4 @@ const ForthSection = () => {
   )
 }
 
-export default ForthSection
+export default GrowEngageFacilitate

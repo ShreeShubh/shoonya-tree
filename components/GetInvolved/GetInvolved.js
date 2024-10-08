@@ -166,18 +166,20 @@ const GetInvolved = () => {
   return (
     <div className="h-auto px-5 pt-12 pb-10">
       <div className="flex flex-col items-center h-full gap-5 max-w-screen-lg mx-auto">
+        {/* Heading and Subheading */}
         <div className="flex flex-col items-center gap-4 text-center">
-          <h1 className="text-4xl text-[#486601] font-semibold">
+          <h1 className="text-2xl md:text-4xl text-[#486601] font-semibold">
             Get Involved With Shoonya
           </h1>
-          <p className="text-xl text-shoonya-black">
+          <p className="text-lg md:text-xl text-shoonya-black">
             Here’s how you can get started. Fill out the enquiry form and our
             team will get back to you shortly.
           </p>
         </div>
 
+        {/* Form Section */}
         <form
-          className="flex flex-col items-center gap-2 w-full mt-10"
+          className="flex flex-col items-center gap-2 w-full mt-5 md:mt-10"
           onSubmit={onSubmitForm}
         >
           {renderNameField()}
@@ -185,6 +187,7 @@ const GetInvolved = () => {
           {renderOrganisationField()}
           {renderAreYouField()}
           {renderMessageField()}
+
           <button
             type="submit"
             className="py-3 flex justify-center items-center w-full md:w-1/2 bg-[#364708] text-white rounded mt-5 hover:bg-[#486601] hover:text-[#D9D98C] transition-colors duration-300"

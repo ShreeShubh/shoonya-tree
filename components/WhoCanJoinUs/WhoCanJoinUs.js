@@ -6,7 +6,7 @@ import Image from "next/image"
 import React from "react"
 import Slider from "react-slick"
 
-const ThirdSection = () => {
+const WhoCanJoinUs = () => {
   const sliderRef = React.useRef(null)
 
   // Slick Slider settings
@@ -39,13 +39,13 @@ const ThirdSection = () => {
   }
 
   return (
-    <div className="h-auto px-5 pt-32 pb-40 bg-[url('/banner03.png')] bg-cover">
-      <div className="flex flex-col items-center h-full gap-5 max-w-screen-lg mx-auto">
+    <div className="h-auto px-5 py-24 bg-[url('/banner03.png')] bg-cover">
+      <div className="flex flex-col items-center h-full gap-5 max-w-screen-xl mx-auto">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="text-4xl text-[#486601] text-center font-semibold">
+          <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold">
             Who Can Join Us?
           </h1>
-          <p className="text-xl text-shoonya-black italic text-center">
+          <p className="text-lg md:text-xl text-shoonya-black italic text-center">
             We invite collaborations across all sectors to plant the roots of
             change for the future. <br /> Your Present, for Our Green Future
           </p>
@@ -56,18 +56,16 @@ const ThirdSection = () => {
             {whoCanJoinUsData.map((item, index) => {
               return (
                 <div key={index} className="flex justify-center">
-                  <div className="flex flex-col items-center justify-start gap-4 bg-[url('/circle.png')] bg-cover bg-center w-[400px] h-[400px] p-5">
-                    <div className="flex justify-center items-center h-[50px] mt-20">
-                      <Image
-                        src={item.iconUrl}
-                        width={45}
-                        height={35}
-                        alt="icon"
-                        className="w-10 h-10"
-                      />
-                    </div>
+                  <div className="flex flex-col items-center justify-center gap-4 bg-[url('/circle.png')] bg-cover bg-center w-full md:w-[450px] h-[450px] p-5">
+                    <Image
+                      src={item.iconUrl}
+                      width={45}
+                      height={35}
+                      alt="icon"
+                      className="w-10 h-10"
+                    />
 
-                    <p className="text-sm text-[#333536] text-center w-3/5">
+                    <p className="text-lg text-[#333536] text-center w-3/5">
                       <span className="text-shoonya-purple">{item.title}</span>{" "}
                       {item.desc}
                     </p>
@@ -78,7 +76,7 @@ const ThirdSection = () => {
           </Slider>
         </div>
 
-        <h2 className="text-xl text-[#141414] text-center">
+        <h2 className="text-lg md:text-2xl text-[#141414] text-center">
           <span className="font-semibold text-shoonya-purple">
             {" "}
             And you. <br /> Every individual,{" "}
@@ -108,4 +106,4 @@ const ThirdSection = () => {
   )
 }
 
-export default ThirdSection
+export default WhoCanJoinUs
