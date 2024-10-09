@@ -2,12 +2,12 @@ import Image from "next/image"
 
 const StartWithShoonya = () => {
   return (
-    <div className="h-auto px-5 pb-40 bg-[url('/banner02.png')] bg-cover justify-center">
-      <div className="flex flex-col items-center justify-between text-white h-full gap-10 md:gap-16 max-w-screen-lg mx-auto">
+    <div className="h-auto px-5 pb-40 bg-[url('/banner02.png')] bg-cover">
+      <div className="flex flex-col items-center justify-between text-white h-full gap-10 md:gap-14 max-w-screen-lg mx-auto">
         <div className="border-b border-dashed border-shoonya-green w-full" />
 
         <div className="flex flex-col items-center gap-3 md:gap-4">
-          <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold">
+          <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold mt-3">
             What happens when you start with Shoonya?
           </h1>
           <p className="text-lg md:text-xl text-shoonya-black italic text-center">
@@ -31,7 +31,7 @@ const StartWithShoonya = () => {
             alt="map"
           />
 
-          <ul className="list-disc text-base md:text-lg text-shoonya-black w-full md:w-[421px] flex flex-col gap-4 md:gap-5">
+          <ul className="list-disc text-base md:text-xl text-shoonya-black w-full md:w-[421px] flex flex-col gap-4 md:gap-5">
             <li>
               We identify ecologically sensitive zones and collaborate with
               local vulnerable communities from the area, empowering the

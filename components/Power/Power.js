@@ -5,6 +5,7 @@ import Slider from "react-slick"
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import Link from "next/link"
 
 const Power = () => {
   // Slick slider settings
@@ -68,10 +69,14 @@ const Power = () => {
                         ></div>
 
                         {/* Source Section */}
-                        <p className="text-base md:text-lg text-[#333536] mt-auto">
-                          Source:{" "}
-                          <span className="text-[#05AC8D]">{item.source}</span>
-                        </p>
+                        <Link href={item.link} target="_blank">
+                          <p className="text-base md:text-lg text-[#333536] mt-auto">
+                            Source:{" "}
+                            <span className="text-[#05AC8D]">
+                              {item.source}
+                            </span>
+                          </p>
+                        </Link>
                       </div>
                     </div>
                   </div>
