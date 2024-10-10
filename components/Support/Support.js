@@ -75,7 +75,7 @@ const Support = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-4 mt-10 text-center">
+        <div className="flex flex-col items-center gap-4 mt-14 text-center">
           <h2 className="text-2xl md:text-4xl text-[#486601] italic font-semibold">
             Thank You for Your Support!
           </h2>

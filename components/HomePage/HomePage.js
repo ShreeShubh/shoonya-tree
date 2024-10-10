@@ -22,10 +22,11 @@ const HomePage = () => {
       <GrowEngageFacilitate />
       <WhoDoWeAim />
       <Power />
-      <Support />
       <div ref={scrollToRef}>
         <GetInvolved />
       </div>
+      <Support />
+
       <Footer />
     </>
   )

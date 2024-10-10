@@ -248,7 +248,7 @@ const GetInvolved = () => {
   )
 
   return (
-    <div className="h-auto px-5 pt-5 pb-10">
+    <div className="h-auto px-5 pt-5 pb-10 mt-5">
       <div className="flex flex-col items-center h-full gap-5 max-w-screen-lg mx-auto">
         <div className="flex flex-col items-center gap-4 text-center">
           <h1 className="text-2xl md:text-4xl text-[#486601] font-semibold">
