@@ -32,6 +32,7 @@ const WhoDoWeAim = () => {
                       width={39}
                       height={39}
                       alt={item.title}
+                      className="w-[39px] h-[39px]"
                     />
                     <h2 className="text-xl md:text-2xl text-shoonya-black text-center font-semibold">
                       {item.title}
@@ -46,7 +47,7 @@ const WhoDoWeAim = () => {
           </ul>
         </div>
 
-        <p className="text-base md:text-lg text-[#333536] text-center italic mt-10">
+        <p className="text-base md:text-lg text-shoonya-purple font-semibold text-center italic mt-10">
           We aim to make our initiative as transparent as possible with clear,
           accountable methods for every contribution and outcome.{" "}
           <br className="hidden md:inline" />

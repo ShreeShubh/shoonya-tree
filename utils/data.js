@@ -62,7 +62,7 @@ export const aimToImpactData = [
   {
     iconUrl: "/section05/icon03.svg",
     title: "Prosperity",
-    desc: "Long-term economic benefits for farmers, through increased tree produce.",
+    desc: "Long term economic and ecological benefits to farmers, who have access to diversified sources of income while improving their local ecosystems, leading to increased qualities of soil & water health.",
   },
 ]
 

@@ -38,9 +38,15 @@ const Power = () => {
   return (
     <div className="h-auto px-5 pt-5 md:pt-10 pb-16">
       <div className="flex flex-col items-center h-full gap-5 max-w-screen-lg mx-auto">
-        <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold">
-          The Power of 1 Million Trees
-        </h1>
+        <div className="flex flex-col items-center gap-4">
+          <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold">
+            The Power of 1 Million Trees
+          </h1>
+          <p className="text-lg md:text-xl text-shoonya-black italic text-center">
+            The figures used are rough estimates based on scientific
+            calculations, with slight variations expected.
+          </p>
+        </div>
 
         <div className="mt-7 w-full">
           <Slider {...settings}>
