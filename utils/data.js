@@ -69,7 +69,7 @@ export const aimToImpactData = [
 export const millionTreesData = [
   {
     title: "Growing 1 Tree",
-    desc01: "Absorbs 22 kg of CO₂ emissions per year",
+    desc01: "Absorbs 22 kg of CO₂ emissions per year.",
     desc02:
       "Equivalent to eliminating the emissions of a standard 100W light bulb running for <strong>21 days</strong> continuously.",
     source: "Clever Carbon",
@@ -87,7 +87,7 @@ export const millionTreesData = [
     title: "Growing 100 Trees",
     desc01: "Offsets 2200 kg of CO₂ emissions.",
     desc02:
-      "Equivalent to eliminating the annual emissions of  <strong>4 people</strong> in India",
+      "Equivalent to eliminating the annual emissions of  <strong>4 people</strong> in India.",
     source: "Research Institute for Humanity and Nature",
     link: "https://www.sciencedirect.com/science/article/pii/S0959378020307883?via%3Dihub#f0020",
   },
@@ -95,15 +95,15 @@ export const millionTreesData = [
     title: "Growing 1,000 Trees",
     desc01: "Offsets 22,000 kg of CO₂ emissions.",
     desc02:
-      "Equivalent to eliminating the footprint of <strong>24 flights</strong> from New York to London. ​​",
+      "Equivalent to eliminating the footprint of <strong>24 flights</strong> from New York to London.",
     source: "Clever Carbon",
     link: "https://clevercarbon.io/carbon-footprint-of-common-items/",
   },
   {
     title: "Growing 10,000 Trees",
-    desc01: "Offsets 220,000 kg of CO₂ emissions ",
+    desc01: "Offsets 220,000 kg of CO₂ emissions.",
     desc02:
-      "Equivalent to eliminating the annual footprint of <strong>125 people</strong> living in Mumbai",
+      "Equivalent to eliminating the annual footprint of <strong>125 people</strong> living in Mumbai.",
     source: "Research Institute for Humanity and Nature",
     link: "https://www.sciencedirect.com/science/article/pii/S0959378020307883?via%3Dihub#f0020",
   },
@@ -111,7 +111,7 @@ export const millionTreesData = [
     title: "Growing 1 Lakh Trees",
     desc01: "Offsets 2,200,000 kg of CO₂ emissions.",
     desc02:
-      "Equivalent to eliminating the annual footprint of <strong>1947 people</strong> living in Bengaluru",
+      "Equivalent to eliminating the annual footprint of <strong>1947 people</strong> living in Bengaluru.",
     source: "Research Institute for Humanity and Nature",
     link: "https://www.sciencedirect.com/science/article/pii/S0959378020307883?via%3Dihub#f0020",
   },
@@ -119,7 +119,7 @@ export const millionTreesData = [
     title: "Growing 1 Million Trees",
     desc01: "Offsets 22,000,000 kg of CO₂ emissions.",
     desc02:
-      "Equivalent to eliminating the annual footprint of approximately <strong>22,449 people</strong> living in New Delhi",
+      "Equivalent to eliminating the annual footprint of approximately <strong>22,449 people</strong> living in New Delhi.",
     source: "Research Institute for Humanity and Nature",
     link: "https://www.sciencedirect.com/science/article/pii/S0959378020307883?via%3Dihub#f0020",
   },
