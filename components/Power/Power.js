@@ -42,10 +42,10 @@ const Power = () => {
           <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold">
             The Power of 1 Million Trees
           </h1>
-          <p className="text-lg md:text-xl text-shoonya-black italic text-center">
+          {/* <p className="text-lg md:text-xl text-shoonya-black italic text-center">
             The figures used are rough estimates based on scientific
             calculations, with slight variations expected.
-          </p>
+          </p> */}
         </div>
 
         <div className="mt-7 w-full">
@@ -53,28 +53,22 @@ const Power = () => {
             {millionTreesData.map((item, index) => {
               return (
                 <div key={index} className="px-2">
-                  {/* Set a fixed height for each item */}
                   <div className="rounded flex flex-col h-[250px] md:h-[300px] w-full md:w-[300px] overflow-hidden mx-auto">
-                    {/* Adjust height as necessary */}
                     <div className="flex flex-col h-full">
-                      {/* Title Section */}
                       <div className="bg-gradient-to-r from-[#A1B300] to-[#D9D98C] flex justify-center items-center py-2 rounded-t">
                         <h2 className="text-lg md:text-xl text-[#374708]">
                           {item.title}
                         </h2>
                       </div>
 
-                      {/* Content Section */}
                       <div className="p-3 text-[#141414] border border-[#B8D0CB] border-t-0 rounded-b flex flex-col gap-3 h-full">
                         <p className="text-base md:text-lg">{item.desc01}</p>
 
-                        {/* Description */}
                         <div
                           className="text-base md:text-lg flex-grow overflow-auto"
                           dangerouslySetInnerHTML={{ __html: item.desc02 }}
                         ></div>
 
-                        {/* Source Section */}
                         <Link href={item.link} target="_blank">
                           <p className="text-base md:text-lg text-[#333536] mt-auto">
                             Source:{" "}
@@ -90,6 +84,12 @@ const Power = () => {
               )
             })}
           </Slider>
+        </div>
+        <div className="bg-[#E6E6E6] px-5 py-2 flex justify-center mt-10">
+          <p className="text-base md:text-lg text-shoonya-black text-center">
+            The figures used are rough estimates based on scientific
+            calculations, with slight variations expected.
+          </p>
         </div>
       </div>
     </div>

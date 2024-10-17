@@ -1,5 +1,6 @@
 "use client"
 
+import axios from "axios"
 import { CiCircleCheck } from "react-icons/ci"
 import { GiFruitTree } from "react-icons/gi"
 import { useState } from "react"
@@ -40,28 +41,56 @@ const GetInvolved = () => {
     return !Object.values(newErrors).includes(true)
   }
 
-  const onSubmitForm = (e) => {
+  const onSubmitForm = async (e) => {
     e.preventDefault()
+
     if (validateForm()) {
-      console.log(userDetails)
-      setIsSubmitted(true)
-      setShowMessage(true)
-      setUserDetails({
-        name: "",
-        email: "",
-        organisation: "",
-        areYou: "",
-        message: "",
-        other: "",
-      })
-      setErrors({
-        name: false,
-        email: false,
-        organisation: false,
-        areYou: false,
-        message: false,
-        other: false,
-      })
+      const formData = new FormData()
+      formData.append("name", userDetails.name)
+      formData.append("email", userDetails.email)
+      formData.append("organisation", userDetails.organisation)
+      formData.append("areYou", userDetails.areYou)
+      formData.append("message", userDetails.message)
+      formData.append("other", userDetails.other)
+
+      try {
+        const response = await axios.post(
+          "https://docs.cms.org.in/wp-json/contact-form-7/v1/contact-forms/10653/feedback",
+          formData,
+          {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
+          }
+        )
+
+        if (response.status === 200) {
+          // If form submission is successful
+          console.log("Form submitted successfully")
+          setIsSubmitted(true)
+          setShowMessage(true)
+          setUserDetails({
+            name: "",
+            email: "",
+            organisation: "",
+            areYou: "",
+            message: "",
+            other: "",
+          })
+          setErrors({
+            name: false,
+            email: false,
+            organisation: false,
+            areYou: false,
+            message: false,
+            other: false,
+          })
+        } else {
+          console.error("Form submission failed")
+        }
+      } catch (error) {
+        console.error("Error submitting the form:", error)
+      }
     }
   }
 
@@ -103,7 +132,7 @@ const GetInvolved = () => {
         Email
       </span>
       <input
-        type="text"
+        type="email"
         className="border-none outline-none bg-transparent px-2 w-full text-[#374708]"
         value={userDetails.email}
         onChange={(e) =>
