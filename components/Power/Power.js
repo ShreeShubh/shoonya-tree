@@ -87,8 +87,8 @@ const Power = () => {
         </div>
         <div className="bg-[#E6E6E6] px-5 py-2 flex justify-center mt-10 rounded">
           <p className="text-base md:text-lg text-shoonya-black text-center">
-            The figures used are rough estimates based on scientific
-            calculations, with slight variations expected.
+            The figures used are estimates based on scientific calculations,
+            with slight variations expected.
           </p>
         </div>
       </div>
