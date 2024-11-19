@@ -1,4 +1,4 @@
-import { aimToImpactData } from "@/utils/data"
+import { aimToImpactData } from "@/utils/shoonyaTreeData"
 import Image from "next/image"
 
 const WhoDoWeAim = () => {

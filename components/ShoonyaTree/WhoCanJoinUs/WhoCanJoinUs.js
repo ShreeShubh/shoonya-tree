@@ -1,10 +1,10 @@
 "use client"
 
-import { whoCanJoinUsData } from "@/utils/data"
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io"
 import Image from "next/image"
 import React from "react"
 import Slider from "react-slick"
+import { whoCanJoinUsData } from "@/utils/shoonyaTreeData"
 
 const WhoCanJoinUs = ({ scrollToRef }) => {
   const sliderRef = React.useRef(null)

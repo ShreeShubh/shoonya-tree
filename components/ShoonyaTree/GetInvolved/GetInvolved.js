@@ -107,7 +107,7 @@ const GetInvolved = () => {
       </span>
       <input
         type="text"
-        className="border-none outline-none bg-transparent px-2 w-full text-[#374708]"
+        className="border-none outline-none focus:outline-none focus:ring-0 focus:border-transparent bg-transparent px-2 w-full text-[#374708]"
         value={userDetails.name}
         onChange={(e) =>
           setUserDetails((prevDetails) => ({
@@ -133,7 +133,7 @@ const GetInvolved = () => {
       </span>
       <input
         type="email"
-        className="border-none outline-none bg-transparent px-2 w-full text-[#374708]"
+        className="border-none outline-none focus:outline-none focus:ring-0 focus:border-transparent bg-transparent px-2 w-full text-[#374708]"
         value={userDetails.email}
         onChange={(e) =>
           setUserDetails((prevDetails) => ({
@@ -159,7 +159,7 @@ const GetInvolved = () => {
       </span>
       <input
         type="text"
-        className="border-none outline-none bg-transparent px-2 w-full text-[#374708]"
+        className="border-none outline-none focus:outline-none focus:ring-0 focus:border-transparent bg-transparent px-2 w-full text-[#374708]"
         value={userDetails.organisation}
         onChange={(e) =>
           setUserDetails((prevDetails) => ({
@@ -187,7 +187,7 @@ const GetInvolved = () => {
           Are you
         </span>
         <select
-          className="border-none outline-none bg-transparent px-2 w-full text-[#374708]"
+          className="border-none outline-none focus:outline-none focus:ring-0 focus:border-transparent bg-transparent px-2 w-full text-[#374708]"
           value={userDetails.areYou}
           onChange={(e) =>
             setUserDetails((prevDetails) => ({
@@ -241,7 +241,7 @@ const GetInvolved = () => {
                 other: e.target.value,
               }))
             }
-            className="border-none outline-none bg-transparent px-2 w-full text-[#374708]"
+            className="border-none outline-none focus:outline-none focus:ring-0 focus:border-transparent bg-transparent px-2 w-full text-[#374708]"
           />
         </div>
       )}
@@ -269,7 +269,7 @@ const GetInvolved = () => {
             message: e.target.value,
           }))
         }
-        className="border-none outline-none bg-transparent px-2 w-full text-[#374708]"
+        className="border-none outline-none focus:outline-none focus:ring-0 focus:border-transparent bg-transparent px-2 w-full text-[#374708]"
         placeholder="Enter your message here..."
       ></textarea>
       {/* {errors.message && <span className="text-red-500 text-sm">Required</span>} */}

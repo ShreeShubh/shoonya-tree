@@ -1,4 +1,4 @@
-import { growEngageFacilitateData } from "@/utils/data"
+import { growEngageFacilitateData } from "@/utils/shoonyaTreeData"
 import Image from "next/image"
 
 const GrowEngageFacilitate = () => {
