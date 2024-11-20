@@ -6,7 +6,7 @@ const StartWithShoonyaItems = () => {
     <ul className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {startWithShoonyaData.map((item, index) => {
         return (
-          <li key={item.index}>
+          <li key={index}>
             <div
               className="h-96 w-72 bg-cover bg-center flex items-end"
               style={{ backgroundImage: `url(${item.imageUrl})` }}

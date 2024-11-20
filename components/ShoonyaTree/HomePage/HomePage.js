@@ -11,6 +11,7 @@ import Power from "../Power/Power"
 import GetInvolved from "../GetInvolved/GetInvolved"
 import Support from "../Support/Support"
 import Footer from "../Footer/Footer"
+import OurWork from "../OurWork/OurWork"
 
 const HomePage = () => {
   const scrollToRef = useRef(null)
@@ -18,6 +19,7 @@ const HomePage = () => {
     <>
       <Header scrollToRef={scrollToRef} />
       <StartWithShoonya />
+      <OurWork />
       <WhoCanJoinUs scrollToRef={scrollToRef} />
       <GrowEngageFacilitate />
       <WhoDoWeAim />

@@ -52,7 +52,7 @@ export const aimToImpactData = [
   {
     iconUrl: "/section05/icon01.svg",
     title: "Planet",
-    desc: "Climate change mitigation through CO₂ absorption, improved air quality, and ecological restoration. To achieve this, we grow native trees that belong, ensuring resilience and ecological harmony.",
+    desc: "Climate change mitigation through CO2 absorption, improved air quality, and ecological restoration. To achieve this, we grow native trees that belong, ensuring resilience and ecological harmony.",
   },
   {
     iconUrl: "/section05/icon02.svg",
@@ -62,7 +62,7 @@ export const aimToImpactData = [
   {
     iconUrl: "/section05/icon03.svg",
     title: "Prosperity",
-    desc: "Long term economic and ecological benefits to farmers, who have access to diversified sources of income while improving their local ecosystems, leading to increased qualities of soil & water health.",
+    desc: "Long-term economic benefits for farmers, through increased tree produce.",
   },
 ]
 
@@ -159,5 +159,105 @@ export const benefitsOfStartingWithShoonya = [
   {
     title: "Sustainable Livelihoods",
     desc: "Farmers gain long-term economic benefits, supporting local communities",
+  },
+]
+
+export const ourWorkData = [
+  {
+    title: "Locations",
+    content: [
+      {
+        iconUrl: "/ourWork/icon01.svg",
+        desc: "Vikramgad, </br> Talasari </br> (Maharashtra)",
+        width: 116,
+        height: 106,
+      },
+      {
+        iconUrl: "/ourWork/icon02.svg",
+        desc: "Kanakapura, </br> Chikaballapur </br> (Karnataka)",
+        width: 80,
+        height: 123,
+      },
+    ],
+  },
+  {
+    title: "Communities",
+    content: [
+      {
+        iconUrl: "/ourWork/icon03.svg",
+        desc: "Small and </br> Marginal Farmers",
+        width: 65,
+        height: 60,
+      },
+    ],
+  },
+  {
+    title: "Species",
+    content: [
+      {
+        iconUrl: "/ourWork/icon04.svg",
+        desc: "Horticulture and </br> Bio-Resource Trees",
+        width: 57,
+        height: 70,
+      },
+    ],
+  },
+]
+
+export const ourCommitmentData = [
+  {
+    bgColor: "#008B71",
+    iconUrl: "/ourCommitment/icon01.svg",
+    title: "Work together",
+  },
+  {
+    bgColor: "#109A45",
+    iconUrl: "/ourCommitment/icon02.svg",
+    title: "Give back to the Earth and her people",
+  },
+  {
+    bgColor: "#70B124",
+    iconUrl: "/ourCommitment/icon03.svg",
+    title: "Focus on ecological balance",
+  },
+  {
+    bgColor: "#A1B300",
+    iconUrl: "/ourCommitment/icon04.svg",
+    title: "Community empowerment",
+  },
+  {
+    bgColor: "#B2C31F",
+    iconUrl: "/ourCommitment/icon05.svg",
+    title: "Sustainable impact",
+  },
+]
+
+export const rootedInActionData = [
+  {
+    imageUrl: "/ourWork/rootedInAction/image01.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image02.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image03.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image04.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image05.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image06.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image07.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image08.png",
+  },
+  {
+    imageUrl: "/ourWork/rootedInAction/image09.png",
   },
 ]
