@@ -35,3 +35,34 @@ body {
 .slick-dots li.slick-active button {
   background-color: #a1b300; /* Active dot color */
 }
+
+/* Change the color of inactive dots */
+/* .react-multi-carousel-dot button {
+  background: #a1e1d4; 
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: none;
+} */
+
+/* Change the color of active dots */
+/* .react-multi-carousel-dot--active button {
+  background: #00ac8d; 
+} */
+
+/* .react-multi-carousel-dot-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 10;
+} */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

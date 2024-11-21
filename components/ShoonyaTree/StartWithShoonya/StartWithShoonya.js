@@ -4,7 +4,7 @@ import { benefitsOfStartingWithShoonya } from "@/utils/shoonyaTreeData"
 
 const StartWithShoonya = () => {
   return (
-    <div className="h-auto px-5 pb-40 bg-[url('/banner02.png')] bg-cover">
+    <div className="h-auto px-5 pb-40 bg-[url('/banner02.png')] bg-cover overflow-hidden">
       <div className="flex flex-col items-center justify-between h-full gap-10 md:gap-14 max-w-screen-lg mx-auto">
         <div className="border-b border-dashed border-shoonya-green w-full" />
 
@@ -14,7 +14,9 @@ const StartWithShoonya = () => {
           </h1>
         </div>
 
-        <StartWithShoonyaItems />
+        <div className="w-full overflow-x-hidden">
+          <StartWithShoonyaItems />
+        </div>
 
         <div className="flex flex-col items-center gap-3 md:gap-4 mt-14">
           <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold mt-3">

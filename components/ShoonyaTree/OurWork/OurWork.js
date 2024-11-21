@@ -2,30 +2,31 @@ import { ourCommitmentData, ourWorkData } from "@/utils/shoonyaTreeData"
 import Image from "next/image"
 import React from "react"
 import Glimpses from "./Glimpses/Glimpses"
+import GlimpsesNew from "./Glimpses/GlimpsesNew"
 
 const OurWork = () => {
   return (
-    <div className="h-auto px-5 py-24 bg-[url('/banner09.png')] bg-cover mt-10">
+    <div className="h-auto px-5 py-24 bg-[url('/banner09.png')] bg-cover md:mt-10">
       <div className="flex flex-col items-center h-full gap-5 max-w-screen-xl mx-auto">
         <h1 className="text-2xl md:text-4xl text-[#486601] text-center font-semibold">
           Our Work
         </h1>
 
         <div className="flex items-center justify-center">
-          <ul className="flex w-full p-4">
+          <ul className="flex flex-col md:flex-row gap-3 md:gap-0 w-full p-4">
             {ourWorkData.map((item, index) => {
               return (
                 <li key={index}>
                   <div
                     className={`border border-[#486601] p-4 flex flex-col w-full h-full ${
-                      index < ourWorkData.length - 1 ? "border-r-0" : ""
+                      index < ourWorkData.length - 1 ? "md:border-r-0" : ""
                     }`}
                   >
-                    <h3 className="text-[#020202] text-xl font-semibold">
+                    <h3 className="text-[#020202] text-xl font-semibold mb-3">
                       {item.title}
                     </h3>
 
-                    <ul className="flex items-center gap-3 my-auto">
+                    <ul className="flex flex-col md:flex-row items-center gap-3 my-auto">
                       {item.content.map((description, idx) => {
                         return (
                           <li
@@ -86,9 +87,8 @@ const OurWork = () => {
         </div>
 
         <div className="border-b border-dashed border-shoonya-green w-10/12 mt-10" />
-
-        <Glimpses />
       </div>
+      <GlimpsesNew />
     </div>
   )
 }

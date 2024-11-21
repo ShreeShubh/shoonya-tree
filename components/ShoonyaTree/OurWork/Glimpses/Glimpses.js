@@ -81,6 +81,7 @@ const Glimpses = () => {
                     width={368}
                     height={280}
                     alt="Rooted in Action"
+                    className=""
                   />
                 </div>
               )
